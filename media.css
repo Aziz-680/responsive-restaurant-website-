@@ -1,0 +1,235 @@
+/* ====== nav bar ====== */
+
+@media screen and (min-width: 768px) {
+    .nav-bar .container {
+        flex-direction: row;
+        width: 60%;
+    }
+
+    .nav-bar .switch-mode {
+        order: 3;
+    }
+
+    .nav-bar .nav-list {
+        order: 2;
+    }
+}
+
+/* ====== nav bar end ====== */
+/* ====== Header ====== */
+
+@media screen and (min-width: 992px) {
+    .header {
+        height: 100vh;
+    }
+
+    .header .container {
+        flex-direction: row-reverse;
+        width: 70%;
+    }
+
+    .btn {
+        border-radius: 0px 100vh 100vh;
+    }
+
+    .header-img {
+        width: 40%;
+    }
+
+    .header .header-content {
+        align-items: flex-start;
+        text-align: left;
+        width: 40%;
+    }
+
+    .btns {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 2.5em;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .header .container {
+        width: 90%;
+    }
+}
+
+/* ====== Header end ====== */
+/* ====== Chefs ====== */
+
+@media screen and (min-width: 992px) {
+    .chefs-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .chefs .container {
+        width: 75%;
+    }
+
+    .chefs-cards .card {
+        width: 30%;
+    }
+}
+
+/* ====== Chefs ends ====== */
+/* ====== Gallery ====== */
+
+@media screen and (max-width: 1400px) {
+    .gallery-photos {
+        height: 1200px;
+    }
+
+    .gallery .container {
+        width: 90%;
+        /* max-width: 720px; */
+    }
+
+    .gallery-photos {
+        /* width: calc(calc(100% - var(--gap) * 2) / 2); */
+        width: 90%;
+        height: 1900px;
+    }
+
+    .gallery-photos picture {
+        width: 45%;
+        /* width: 40%; */
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .gallery .container {
+        width: 90%;
+        /* max-width: 720px; */
+    }
+
+    .gallery-photos {
+        /* width: calc(calc(100% - var(--gap) * 2) / 2); */
+        width: 90%;
+        height: 1700px;
+    }
+
+    .gallery-photos picture {
+        width: 45%;
+        /* width: 40%; */
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .gallery-photos {
+        height: 1405px;
+    }
+
+    .gallery-photos picture {
+        width: calc(calc(100% - var(--gap)) / 2);
+    }
+
+    .gallery .pizza {
+        order: 1;
+    }
+
+    .gallery .fried {
+        order: 6;
+    }
+
+    .gallery .omelette {
+        order: 4;
+    }
+
+    .gallery .kofta {
+        order: 7;
+    }
+
+    .gallery .burger {
+        order: 2;
+    }
+
+    .gallery .pizza-slices {
+        order: 3;
+    }
+
+    .gallery .steak {
+        order: 5;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .gallery .container {
+        width: 100%;
+    }
+
+    .gallery-photos {
+        flex-wrap: wrap;
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .gallery-photos picture {
+        width: 100%;
+    }
+}
+
+/* ====== Gallery end====== */
+/* ====== contact ====== */
+@media (max-width: 768px) {
+    .contact-info .contact-item{
+        width: 100%;
+    }
+    
+}
+@media (max-width: 992px) {
+    .input.half{
+        width: 100% ;
+        }
+
+}
+/* ====== contact end====== */
+/* ====== footer ====== */
+@media (max-width: 1200px) {
+    .list{
+        width: 100%;
+        order: 3;
+    }
+    .socials ,.get-in-touch{
+        width: 50%;
+    }
+    
+}
+@media (max-width: 768px) {
+    .list{
+        width: 100%;
+        order: 3;
+    }
+    .socials ,.get-in-touch ,.list{
+        width: 100%;
+        order: 1;
+    }
+    
+}
+@media (max-width: 576px) {
+
+    form{
+        flex-wrap: wrap;
+    }
+    .list .btn ,.list .input {
+        width: 100%;
+    }
+    .list .btn{
+        border: 3px var(--btn-color) solid;
+    }
+}
+
+/* ====== footer end====== */
+
+@media (max-width: 1400px) {}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {}
